@@ -1,0 +1,40 @@
+# CartMorph — .gitignore
+# -----------------------------------------------------------
+
+# Config files with secrets — NEVER commit
+cartmorph.config.yaml
+cartmorph.config.json
+*.secret.yaml
+*.secret.json
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Node / Python / etc.
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs
+*.log
+logs/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
